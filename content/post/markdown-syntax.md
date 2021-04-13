@@ -1,19 +1,15 @@
 +++
-author = "Hugo Authors"
-title = "Markdown Syntax Guide"
-date = "2019-03-11"
-description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+author = "Krishnan S"
+title = "MongoDB Change Streams"
+date = "2021-04-12"
+description = "An intro to change streams in MongoDB"
 tags = [
-    "markdown",
-    "css",
-    "html",
-    "themes",
 ]
 categories = [
     "themes",
     "syntax",
 ]
-series = ["Themes Guide"]
+series = ["MongoDB"]
 aliases = ["migrate-from-jekyl"]
 +++
 
