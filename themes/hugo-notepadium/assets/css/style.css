@@ -278,6 +278,9 @@ b {
 
 .header.left-side {
   float: left;
+  animation: tada 4s both;
+  animation-delay: 1s;
+
 }
 
 .header.right-side {
