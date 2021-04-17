@@ -1,8 +1,5 @@
 <section id="footer">
     {{- $copyright := site.Copyright -}}
-    {{- if not $copyright -}}
-        {{- $copyright = site.Title | safeHTML -}}
-    {{- end -}}
     {{- partial "copyright.html" ($copyright | safeHTML) -}}
 </section>
 {{- partial "math.html" . -}}
