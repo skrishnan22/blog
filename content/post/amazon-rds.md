@@ -1,7 +1,7 @@
 +++
 author = "Krishnan S"
 title = "Amazon RDS"
-date = "2021-04-17"
+date = "2021-04-24"
 description = "Setup PostgresSQL database using RDS"
 categories = [
   "rds",

@@ -4,9 +4,7 @@
     {{- if not $dateFormat -}}{{- $dateFormat = "2006-01-02" -}}{{- end -}}
     {{- $lastmodFormat := "" -}}
     {{- $lastmod := .Lastmod -}}
-    {{- if $lastmod -}}
-        {{- $lastmodFormat = $lastmod.Format $dateFormat -}}
-    {{- end -}}
+    
     {{- if .Date -}}
         {{- $dateFormat := .Date.Format $dateFormat -}}
         <p class="article date">{{- $dateFormat -}}
